@@ -1,0 +1,37 @@
+{
+  "name": "buddy2api",
+  "version": "2.0.0",
+  "description": "WorkBuddy/CodeBuddy CLI to OpenAI & Anthropic compatible API gateway",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test \"tests/*.test.js\"",
+    "kill": "node scripts/kill.js",
+    "build:macos": "node scripts/build-macos.js",
+    "vendor:update": "node scripts/vendor-cli.js",
+    "login": "node scripts/login.js",
+    "account": "node scripts/account.js",
+    "accounts": "node scripts/accounts.js",
+    "checkin": "node scripts/checkin.js",
+    "checkin:install-task": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/install-checkin-task.ps1",
+    "checkin:remove-task": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/install-checkin-task.ps1 -Remove",
+    "autostart:install-task": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/install-autostart-task.ps1",
+    "autostart:remove-task": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/install-autostart-task.ps1 -Remove"
+  },
+  "keywords": [
+    "workbuddy",
+    "codebuddy",
+    "openai",
+    "anthropic",
+    "api",
+    "proxy"
+  ],
+  "author": "bingshangfei",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingshangfei/buddy2api.git"
+  }
+}

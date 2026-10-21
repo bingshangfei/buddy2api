@@ -1,0 +1,42 @@
+{
+  "name": "innosetup",
+  "version": "6.4.1",
+  "description": "Node wrapper to compile inno setup scripts (.iss)",
+  "main": "lib/iscc.js",
+  "bin": {
+    "innosetup-compiler": "./lib/iscc"
+  },
+  "homepage": "https://github.com/joaomoreno/node-innosetup-compiler",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaomoreno/node-innosetup-compiler.git"
+  },
+  "author": {
+    "name": "Felicien Francois",
+    "email": "felicien@tweakstyle.com",
+    "url": "http://tweakstyle.com"
+  },
+  "bugs": {
+    "url": "https://github.com/joaomoreno/node-innosetup-compiler/issues"
+  },
+  "licenses": [
+    {
+      "type": "Open Source",
+      "url": "https://github.com/joaomoreno/node-innosetup-compiler/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "inno",
+    "innosetup",
+    "setup",
+    "windows",
+    "installer",
+    "gruntplugin",
+    "node",
+    "cli"
+  ]
+}

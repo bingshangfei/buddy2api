@@ -1,0 +1,45 @@
+# Build output
+installer/dist/
+installer/payload/
+
+# vendored codebuddy CLI（腾讯专有软件，不入库：安装时从本机 WorkBuddy 拷贝，
+# 或 npm run vendor:update 手动同步。注意勿对本仓跑 git clean -X——会物理删除
+# 磁盘上的 vendor 副本，WorkBuddy 已卸载的机器上不可恢复）
+/vendor/
+
+# User data (credentials, usage stats)
+data/
+
+# Temp/probe files
+tmp-*.js
+tmp-*.json
+tmp-*.mjs
+tmp-*.cjs
+tmp-*.ps1
+tmp-probe/
+tmp-fresh-cfg/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# devflow runtime state (task state is in .trellis/tasks/, spec in .trellis/spec/, both tracked)
+.devflow/
+.trellis/workspace/
+
+# editor/agent state
+.zcode/
+
+
+# --- devflow runtime ignore (devflow-project-init) ---
+.zcode/
+.codegraph/
+.devflow/
+.devflow-config.yaml
+.zcodeignore

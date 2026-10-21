@@ -1,0 +1,6 @@
+innosetup-portable/ 包含 npm 包 innosetup（joaomoreno/node-innosetup-compiler）的解包产物，
+该包按 MIT 许可证发布（https://github.com/joaomoreno/node-innosetup-compiler）。
+其内打包的 Inno Setup 编译器遵守 installer/toolchain/innosetup-portable/bin/license.txt
+（Inno Setup License，Jordan Russell & Martijn Laan）。
+简体中文语言文件 installer/toolchain/ChineseSimplified.isl 来自
+kira-96/Inno-Setup-Chinese-Simplified-Translation（Inno Setup 翻译惯例分发）。
